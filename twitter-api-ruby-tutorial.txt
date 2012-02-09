@@ -36,6 +36,8 @@ Now that we know that everything is working, let's move to the next level. We wi
 
 ### Understanding the main concepts
 
+Twitter APIs (yes, there is more than one) are documented at https://dev.twitter.com/docs
+
 ### Registering your first Twitter application
 
 #### What is OAuth, how does it work?
