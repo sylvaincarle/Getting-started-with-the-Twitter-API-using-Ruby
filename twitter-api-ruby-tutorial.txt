@@ -36,7 +36,7 @@ Now that we know that everything is working, let's move to the next level. We wi
 
 ### Understanding the main concepts
 
-Twitter APIs (yes, there is more than one) are documented at https://dev.twitter.com/docs
+Twitter APIs (yes, there is more than one) are documented at https://dev.twitter.com/docs, there's a lot of material there but it might be difficult at first to piece together all the information you need, hence this more "procedural" tutorial. Once you walk thru the steps here, you will have a better idea of what you should be searching for in all the available documentation.
 
 ### Registering your first Twitter application
 
