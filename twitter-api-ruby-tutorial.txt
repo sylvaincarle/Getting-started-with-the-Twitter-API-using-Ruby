@@ -1,4 +1,41 @@
-Getting started with the Twitter API using Ruby
+Note: this tutorial is written using Github Flavored Markdown (GFM) for clarity (and usefulness).
 
-A simple tutorial, providing code and context.
+# Getting started with the Twitter API using Ruby
 
+## A simple tutorial, providing code and context.
+
+### Some assumptions
+
+* Ruby is installed and functionnal
+* You are connected to the network
+* You can follow simple instructions ;-)
+
+### Getting started
+
+First thing you need to do: install the Twitter Ruby Gem.
+
+You can find it at http://twitter.rubyforge.org/
+
+Then open your terminal and type:
+
+    gem install twitter
+
+If everything works fine (why shouldn't it?) you will get a welcome message after fetching the gem is done. The latest version of this gem at the time of writing was twitter-2.1.0.gem.
+
+We will now create a simple file to get started. Create a file called twitter.rb with the two following lines:
+
+```ruby
+require 'twitter'
+puts Twitter.user_timeline("twitterapi").first.text 
+ ```
+Save it (duh). When you excute twitter.rb, you will get the latest tweet from @twitterapi in your terminal output. Check http://twitter.com/twitterapi to compare both.
+
+
+
+
+
+
+
+### Notes
+
+Tested with Ruby 1.9.3p0 on OSX 10.7
