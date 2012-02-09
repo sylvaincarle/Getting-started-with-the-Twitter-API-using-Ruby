@@ -26,9 +26,9 @@ We will now create a simple file to get started. Create a file called twitter.rb
 
 ```ruby
 require 'twitter'
-puts Twitter.user_timeline("twitterapi").first.text 
+puts Twitter.status(167309659198328832).text 
  ```
-Save it (duh). When you excute twitter.rb, you will get the latest tweet from @twitterapi in your terminal output. Check http://twitter.com/twitterapi to compare both.
+Save it (duh). When you excute twitter.rb, you will get the tweet with ID "167309659198328832" in your terminal output. It's a message from @twitterapi, check http://twitter.com/twitterapi/status/167309659198328832 to compare both.
 
 
 
