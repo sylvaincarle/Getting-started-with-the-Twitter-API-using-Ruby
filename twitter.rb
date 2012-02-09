@@ -1,3 +1,2 @@
 require 'twitter'
-
-puts Twitter.user_timeline("twitterapi").first.text 
+puts Twitter.status(167309659198328832).text 
