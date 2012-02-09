@@ -10,7 +10,7 @@ Note: this tutorial is written using Github Flavored Markdown (GFM) for clarity 
 * You are connected to the network
 * You can follow simple instructions ;-)
 
-### Getting started
+### Getting started, installing the Twitter Ruby Gem and calling the Twitter Rest API
 
 First thing you need to do: install the Twitter Ruby Gem.
 
@@ -28,7 +28,21 @@ We will now create a simple file to get started. Create a file called twitter.rb
 require 'twitter'
 puts Twitter.status(167309659198328832).text 
  ```
-Save it (duh). When you excute twitter.rb, you will get the tweet with ID "167309659198328832" in your terminal output. It's a message from @twitterapi, check http://twitter.com/twitterapi/status/167309659198328832 to compare both.
+Save it (duh). When you excute twitter.rb, you will get the tweet with ID "167309659198328832" in your terminal output. It's a message from @twitterapi, check http://twitter.com/twitterapi/status/167309659198328832 to compare both. 
+
+Now that we know that everything is working, let's move to the next level. We will explore the main concepts of the Twitter Rest API and of building Twitter applications.
+
+(note: what if it doesn't work, add a little bit of troubleshooting help).
+
+### Understanding the main concepts
+
+### Registering your first Twitter application
+
+#### What is OAuth, how does it work?
+
+#### A few decisions to take
+
+### Understanding the rate limitation
 
 
 
